@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "Simple Pomodoro timer",
   "main": "index.js",
+  "engines": {
+    "npm": "6.7.0",
+    "node": "9.11.1"
+  },
   "scripts": {
     "build": "webpack",
-    "dev-server": "webpack-dev-server"
+    "start": "webpack-dev-server"
   },
   "author": "Fouad Tabbara",
   "license": "ISC",
