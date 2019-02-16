@@ -1,0 +1,43 @@
+.button {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px;
+  margin: 5px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.button--pomodoro {
+  background: #f6511d;
+}
+
+.button--sb {
+  background: #ffb400;
+}
+
+.button--lb {
+  background: #7fb800;
+}
+
+.button--reset {
+  background: dodgerblue;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .button {
+    font-size: 14px;
+    padding: 5px;
+  }
+}

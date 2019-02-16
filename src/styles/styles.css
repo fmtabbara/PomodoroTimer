@@ -1,0 +1,45 @@
+.App {
+  font-family: calibri;
+  text-align: center;
+  font-size: 150px;
+}
+
+.app-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.app-container--default {
+  background: dodgerblue;
+}
+
+.app-container--pd {
+  background: #f6511d;
+}
+
+.app-container--sb {
+  background: #ffb400;
+}
+
+.app-container--lb {
+  background: #7fb800;
+}
+
+#root,
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .App {
+    font-size: 100px;
+  }
+}
